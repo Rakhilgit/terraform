@@ -1,6 +1,10 @@
 provider   "azurerm"   { 
    version   =   "= 2.0.0" 
    features   {} 
+    subscription_id = "28e6d331-0880-443b-887b-c141106fbf31"
+  client_id       = "05878008-cbb0-4080-b7a7-393c5833eb13"
+  client_secret   = "50ba3a13-bb3b-4607-aebd-30b562802c1d"
+  tenant_id       = "e901cf7d-2901-4fe9-875c-4c2ea13f1e10"
  } 
  resource   "azurerm_resource_group"   "rg"   { 
    name   =   "my-first-terraform-rg" 
